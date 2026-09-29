@@ -1,0 +1,218 @@
+[
+  {
+    "id": "es2023-array-methods",
+    "commits": 995,
+    "p_without_rule": 0.0067,
+    "p_with_rule": 0.0007,
+    "expected_violations": {
+      "no rule": 6.7,
+      "human rule": 2.5,
+      "pipeline (per-run)": 3.7,
+      "pipeline (window)": 3.2,
+      "pipeline (none)": 2.6
+    },
+    "rule_injected_share": {
+      "human rule": 0.702,
+      "pipeline (per-run)": 0.522,
+      "pipeline (window)": 0.605,
+      "pipeline (none)": 0.704
+    },
+    "pipeline_drops": {
+      "per-run": 0.84,
+      "window": 0.18,
+      "none": 0
+    }
+  },
+  {
+    "id": "console-direct",
+    "commits": 995,
+    "p_without_rule": 0.1159,
+    "p_with_rule": 0.013,
+    "expected_violations": {
+      "no rule": 115.3,
+      "human rule": 44.0,
+      "pipeline (per-run)": 14.7,
+      "pipeline (window)": 14.7,
+      "pipeline (none)": 14.7
+    },
+    "rule_injected_share": {
+      "human rule": 0.696,
+      "pipeline (per-run)": 0.98,
+      "pipeline (window)": 0.98,
+      "pipeline (none)": 0.98
+    },
+    "pipeline_drops": {
+      "per-run": 0,
+      "window": 0,
+      "none": 0
+    }
+  },
+  {
+    "id": "localstorage-direct",
+    "commits": 992,
+    "p_without_rule": 0.0304,
+    "p_with_rule": 0.0057,
+    "expected_violations": {
+      "no rule": 30.2,
+      "human rule": 13.0,
+      "pipeline (per-run)": 7.5,
+      "pipeline (window)": 7.4,
+      "pipeline (none)": 7.4
+    },
+    "rule_injected_share": {
+      "human rule": 0.702,
+      "pipeline (per-run)": 0.925,
+      "pipeline (window)": 0.927,
+      "pipeline (none)": 0.929
+    },
+    "pipeline_drops": {
+      "per-run": 0.05,
+      "window": 0,
+      "none": 0
+    }
+  },
+  {
+    "id": "supabase-in-ui",
+    "commits": 903,
+    "p_without_rule": 0.0359,
+    "p_with_rule": 0.0027,
+    "expected_violations": {
+      "no rule": 32.4,
+      "human rule": 8.0,
+      "pipeline (per-run)": 5.4,
+      "pipeline (window)": 4.8,
+      "pipeline (none)": 4.5
+    },
+    "rule_injected_share": {
+      "human rule": 0.815,
+      "pipeline (per-run)": 0.903,
+      "pipeline (window)": 0.923,
+      "pipeline (none)": 0.934
+    },
+    "pipeline_drops": {
+      "per-run": 0.4,
+      "window": 0,
+      "none": 0
+    }
+  },
+  {
+    "id": "tailwind-color-classes",
+    "commits": 995,
+    "p_without_rule": 0.1396,
+    "p_with_rule": 0.0039,
+    "expected_violations": {
+      "no rule": 138.9,
+      "human rule": 69.0,
+      "pipeline (per-run)": 6.3,
+      "pipeline (window)": 6.2,
+      "pipeline (none)": 6.0
+    },
+    "rule_injected_share": {
+      "human rule": 0.518,
+      "pipeline (per-run)": 0.981,
+      "pipeline (window)": 0.982,
+      "pipeline (none)": 0.983
+    },
+    "pipeline_drops": {
+      "per-run": 0.08,
+      "window": 0,
+      "none": 0
+    }
+  },
+  {
+    "id": "hex-in-components",
+    "commits": 881,
+    "p_without_rule": 0.1198,
+    "p_with_rule": 0.1059,
+    "expected_violations": {
+      "no rule": 105.6,
+      "human rule": 102.0,
+      "pipeline (per-run)": 93.8,
+      "pipeline (window)": 93.8,
+      "pipeline (none)": 93.8
+    },
+    "rule_injected_share": {
+      "human rule": 0.289,
+      "pipeline (per-run)": 0.979,
+      "pipeline (window)": 0.979,
+      "pipeline (none)": 0.979
+    },
+    "pipeline_drops": {
+      "per-run": 0,
+      "window": 0,
+      "none": 0
+    }
+  },
+  {
+    "id": "render-error-object",
+    "commits": 901,
+    "p_without_rule": 0.022,
+    "p_with_rule": 0.0048,
+    "expected_violations": {
+      "no rule": 19.8,
+      "human rule": 9.0,
+      "pipeline (per-run)": 6.2,
+      "pipeline (window)": 6.0,
+      "pipeline (none)": 5.9
+    },
+    "rule_injected_share": {
+      "human rule": 0.697,
+      "pipeline (per-run)": 0.876,
+      "pipeline (window)": 0.888,
+      "pipeline (none)": 0.894
+    },
+    "pipeline_drops": {
+      "per-run": 0.16,
+      "window": 0,
+      "none": 0
+    }
+  },
+  {
+    "id": "single-not-maybesingle",
+    "commits": 995,
+    "p_without_rule": 0.0229,
+    "p_with_rule": 0.001,
+    "expected_violations": {
+      "no rule": 22.8,
+      "human rule": 11.5,
+      "pipeline (per-run)": 4.9,
+      "pipeline (window)": 3.6,
+      "pipeline (none)": 3.0
+    },
+    "rule_injected_share": {
+      "human rule": 0.518,
+      "pipeline (per-run)": 0.817,
+      "pipeline (window)": 0.878,
+      "pipeline (none)": 0.907
+    },
+    "pipeline_drops": {
+      "per-run": 0.93,
+      "window": 0.0,
+      "none": 0
+    }
+  },
+  {
+    "id": "round-without-numeric",
+    "commits": 69,
+    "p_without_rule": 0.5,
+    "p_with_rule": 0.2353,
+    "expected_violations": {
+      "no rule": 34.5,
+      "human rule": 21.0,
+      "pipeline (per-run)": 18.4,
+      "pipeline (window)": 18.4,
+      "pipeline (none)": 18.4
+    },
+    "rule_injected_share": {
+      "human rule": 0.739,
+      "pipeline (per-run)": 0.884,
+      "pipeline (window)": 0.884,
+      "pipeline (none)": 0.884
+    },
+    "pipeline_drops": {
+      "per-run": 0,
+      "window": 0,
+      "none": 0
+    }
+  }
+]

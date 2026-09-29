@@ -1,0 +1,74 @@
+[
+ {
+  "id": "es2023-compat",
+  "rule": "No toSorted()/ES2023+ (Safari <16)",
+  "rule_date": "2026-01-24",
+  "match": "toSorted|ES2023|findLast|Array\\.at|color-mix|Safari\\s*<\\s*1[0-7]"
+ },
+ {
+  "id": "error-object-rendering",
+  "rule": "Never render error objects directly",
+  "rule_date": "2026-01-24",
+  "match": "\\[object Object\\]|error object|rendering error|render(s|ed)? (the )?error"
+ },
+ {
+  "id": "console-logger",
+  "rule": "Use logger, never console.*",
+  "rule_date": "2026-01-25",
+  "match": "console\\.|\\blogger\\b"
+ },
+ {
+  "id": "storage-helpers",
+  "rule": "All localStorage access via src/lib/storage.js",
+  "rule_date": "2026-01-24",
+  "match": "localStorage|sessionStorage|storage\\.js|storage helpers"
+ },
+ {
+  "id": "hardcoded-colors",
+  "rule": "Colors via CSS variables, no Tailwind color classes",
+  "rule_date": "2026-02-01",
+  "match": "hard-?coded (hex|colou?r)|tailwind colou?r|hex colou?rs?|colou?rs? with CSS variables"
+ },
+ {
+  "id": "classified-errors",
+  "rule": "Supabase errors use createClassifiedError()",
+  "rule_date": "2026-02-01",
+  "match": "createClassifiedError|classif(y|ied|ication)"
+ },
+ {
+  "id": "maybe-single",
+  "rule": "Use .maybeSingle() for lookups that can return zero rows",
+  "rule_date": "2026-02-01",
+  "match": "maybeSingle|\\.single\\(\\)|PGRST116"
+ },
+ {
+  "id": "csp-domains",
+  "rule": "CSP: external resources need connect-src too",
+  "rule_date": "2026-02-01",
+  "match": "\\bCSP\\b|connect-src|img-src|content.security.policy"
+ },
+ {
+  "id": "ambiguous-columns",
+  "rule": "Qualify column references in PL/pgSQL",
+  "rule_date": "2026-02-17",
+  "match": "ambiguous|qualif(y|ied) (the )?column"
+ },
+ {
+  "id": "content-safety",
+  "rule": "User text passes validateUserContent(); client rate limits",
+  "rule_date": "2026-02-26",
+  "match": "rate.?limit|blocklist|validateUserContent|content validation"
+ },
+ {
+  "id": "rpc-shape-change",
+  "rule": "(never written) DROP before changing a function's RETURNS TABLE shape",
+  "rule_date": null,
+  "match": "DROP (FUNCTION|VIEW|\\{VIEW)|new return type|shape changes?|can't change RETURNS TABLE"
+ },
+ {
+  "id": "rls-policies",
+  "rule": "(never written as a rule) RLS policy mistakes",
+  "rule_date": null,
+  "match": "\\bRLS\\b|row.level security|infinite recursion"
+ }
+]

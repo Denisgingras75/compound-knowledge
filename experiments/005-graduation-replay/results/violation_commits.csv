@@ -1,0 +1,404 @@
+rule,commit,date,model,rule_in_claude_md,added,removed,net_new
+console-direct,c11923c5,2026-01-06,Sonnet 4.5,no,5,0,5
+supabase-in-ui,c11923c5,2026-01-06,Sonnet 4.5,no,8,0,8
+tailwind-color-classes,c11923c5,2026-01-06,Sonnet 4.5,no,96,0,96
+hex-in-components,c11923c5,2026-01-06,Sonnet 4.5,no,4,0,4
+render-error-object,c11923c5,2026-01-06,Sonnet 4.5,no,2,0,2
+single-not-maybesingle,c11923c5,2026-01-06,Sonnet 4.5,no,1,0,1
+supabase-in-ui,5d3c3721,2026-01-07,Sonnet 4.5,no,2,2,0
+tailwind-color-classes,5d3c3721,2026-01-07,Sonnet 4.5,no,18,1,17
+console-direct,b91bb021,2026-01-11,Opus 4.5,no,2,0,2
+console-direct,287d31ed,2026-01-11,Opus 4.5,no,3,1,2
+console-direct,315acd80,2026-01-11,Opus 4.5,no,1,1,0
+supabase-in-ui,135f278e,2026-01-12,Opus 4.5,no,2,0,2
+tailwind-color-classes,135f278e,2026-01-12,Opus 4.5,no,61,9,52
+hex-in-components,135f278e,2026-01-12,Opus 4.5,no,16,0,16
+single-not-maybesingle,135f278e,2026-01-12,Opus 4.5,no,1,0,1
+localstorage-direct,b7a8f6b9,2026-01-12,Opus 4.5,no,2,0,2
+tailwind-color-classes,b7a8f6b9,2026-01-12,Opus 4.5,no,16,3,13
+hex-in-components,b7a8f6b9,2026-01-12,Opus 4.5,no,977,0,977
+hex-in-components,a141aae2,2026-01-12,Opus 4.5,no,47,0,47
+tailwind-color-classes,836a9e12,2026-01-12,Opus 4.5,no,2,0,2
+supabase-in-ui,13f59c24,2026-01-12,Opus 4.5,no,5,0,5
+tailwind-color-classes,13f59c24,2026-01-12,Opus 4.5,no,77,1,76
+hex-in-components,13f59c24,2026-01-12,Opus 4.5,no,4,0,4
+tailwind-color-classes,c740a431,2026-01-12,Opus 4.5,no,7,9,0
+tailwind-color-classes,b80cef95,2026-01-13,Opus 4.5,no,9,7,2
+tailwind-color-classes,6c56c7c9,2026-01-13,Opus 4.5,no,25,8,17
+tailwind-color-classes,b4546425,2026-01-13,none,no,1,1,0
+tailwind-color-classes,9b8b2abe,2026-01-13,none,no,1,1,0
+tailwind-color-classes,4d1b6518,2026-01-13,none,no,3,0,3
+tailwind-color-classes,d5ba2b94,2026-01-13,none,no,1,3,0
+tailwind-color-classes,655931fd,2026-01-14,Opus 4.5,no,10,9,1
+tailwind-color-classes,622d71e4,2026-01-14,Opus 4.5,no,2,0,2
+tailwind-color-classes,5589186e,2026-01-14,Opus 4.5,no,18,6,12
+tailwind-color-classes,765c2efd,2026-01-14,Opus 4.5,no,6,8,0
+tailwind-color-classes,b87c604b,2026-01-14,Opus 4.5,no,1,3,0
+supabase-in-ui,71a7f5e1,2026-01-14,Opus 4.5,no,5,0,5
+tailwind-color-classes,71a7f5e1,2026-01-14,Opus 4.5,no,50,29,21
+single-not-maybesingle,71a7f5e1,2026-01-14,Opus 4.5,no,3,0,3
+supabase-in-ui,a0c1376e,2026-01-14,Opus 4.5,no,2,0,2
+tailwind-color-classes,635757f0,2026-01-14,Opus 4.5,no,5,2,3
+tailwind-color-classes,f7c71242,2026-01-14,Opus 4.5,no,1,2,0
+tailwind-color-classes,e39cf8b5,2026-01-14,Opus 4.5,no,20,48,0
+tailwind-color-classes,e8cf5636,2026-01-14,Opus 4.5,no,5,12,0
+render-error-object,e8cf5636,2026-01-14,Opus 4.5,no,1,1,0
+tailwind-color-classes,1e77fbd2,2026-01-14,Opus 4.5,no,4,16,0
+tailwind-color-classes,30d67f2b,2026-01-14,Opus 4.5,no,2,2,0
+tailwind-color-classes,787f83f7,2026-01-14,Opus 4.5,no,14,0,14
+render-error-object,787f83f7,2026-01-14,Opus 4.5,no,1,0,1
+tailwind-color-classes,890aed21,2026-01-14,Opus 4.5,no,1,2,0
+render-error-object,91a4be44,2026-01-14,Opus 4.5,no,1,0,1
+tailwind-color-classes,e53c06f7,2026-01-14,Opus 4.5,no,8,0,8
+localstorage-direct,a13ae0ce,2026-01-14,Opus 4.5,no,4,0,4
+hex-in-components,a13ae0ce,2026-01-14,Opus 4.5,no,6,0,6
+console-direct,fe93f9b5,2026-01-14,Opus 4.5,no,2,0,2
+tailwind-color-classes,fe93f9b5,2026-01-14,Opus 4.5,no,5,0,5
+localstorage-direct,f292e8c0,2026-01-14,Opus 4.5,no,2,0,2
+tailwind-color-classes,f292e8c0,2026-01-14,Opus 4.5,no,6,0,6
+hex-in-components,4385214e,2026-01-14,Opus 4.5,no,3,6,0
+supabase-in-ui,71de8ed1,2026-01-14,Opus 4.5,no,4,0,4
+tailwind-color-classes,71de8ed1,2026-01-14,Opus 4.5,no,22,10,12
+hex-in-components,71de8ed1,2026-01-14,Opus 4.5,no,12,0,12
+console-direct,2a0aa169,2026-01-14,Opus 4.5,no,1,0,1
+localstorage-direct,2a0aa169,2026-01-14,Opus 4.5,no,2,0,2
+tailwind-color-classes,2a0aa169,2026-01-14,Opus 4.5,no,1,1,0
+tailwind-color-classes,35fca7ae,2026-01-14,Opus 4.5,no,7,0,7
+console-direct,915b3128,2026-01-15,none,no,28,2,26
+single-not-maybesingle,915b3128,2026-01-15,none,no,3,2,1
+console-direct,e931ce9e,2026-01-15,Opus 4.5,no,12,0,12
+single-not-maybesingle,e931ce9e,2026-01-15,Opus 4.5,no,3,3,0
+tailwind-color-classes,324e64b1,2026-01-15,Opus 4.5,no,8,2,6
+tailwind-color-classes,3e1bdfd9,2026-01-15,Opus 4.5,no,6,5,1
+tailwind-color-classes,480afa4b,2026-01-15,Opus 4.5,no,8,0,8
+tailwind-color-classes,046c6317,2026-01-15,Opus 4.5,no,2,0,2
+localstorage-direct,0ad7757e,2026-01-15,Opus 4.5,no,6,0,6
+tailwind-color-classes,2638685c,2026-01-15,Opus 4.5,no,10,8,2
+render-error-object,2638685c,2026-01-15,Opus 4.5,no,1,1,0
+tailwind-color-classes,898fc362,2026-01-15,Opus 4.5,no,50,0,50
+tailwind-color-classes,1dae1464,2026-01-15,Opus 4.5,no,8,4,4
+tailwind-color-classes,983f2d48,2026-01-15,Opus 4.5,no,18,0,18
+console-direct,7aeee6af,2026-01-15,Opus 4.5,no,1,0,1
+tailwind-color-classes,61023dda,2026-01-15,Opus 4.5,no,16,3,13
+tailwind-color-classes,c94b85ca,2026-01-16,Opus 4.5,no,2,0,2
+localstorage-direct,cbe634d4,2026-01-16,Opus 4.5,no,2,0,2
+tailwind-color-classes,cbe634d4,2026-01-16,Opus 4.5,no,4,1,3
+console-direct,e141f75f,2026-01-16,Opus 4.5,no,1,0,1
+tailwind-color-classes,e141f75f,2026-01-16,Opus 4.5,no,13,2,11
+console-direct,5f5c982c,2026-01-16,Opus 4.5,no,1,0,1
+console-direct,51fe73e9,2026-01-16,Opus 4.5,no,8,0,8
+tailwind-color-classes,51fe73e9,2026-01-16,Opus 4.5,no,6,0,6
+hex-in-components,51fe73e9,2026-01-16,Opus 4.5,no,1,1,0
+single-not-maybesingle,51fe73e9,2026-01-16,Opus 4.5,no,2,0,2
+console-direct,8f0f988d,2026-01-16,Opus 4.5,no,4,0,4
+render-error-object,8f0f988d,2026-01-16,Opus 4.5,no,1,0,1
+tailwind-color-classes,c83c9fd9,2026-01-16,Opus 4.5,no,11,0,11
+hex-in-components,9b43ebfa,2026-01-16,Opus 4.5,no,3,0,3
+tailwind-color-classes,01d168e6,2026-01-16,Opus 4.5,no,1,1,0
+console-direct,c27109bb,2026-01-16,Opus 4.5,no,1,0,1
+tailwind-color-classes,3751ac6a,2026-01-16,Opus 4.5,no,4,4,0
+localstorage-direct,7babdb5d,2026-01-16,Opus 4.5,no,2,0,2
+console-direct,c6fbfe2e,2026-01-16,Opus 4.5,no,10,1,9
+localstorage-direct,c6fbfe2e,2026-01-16,Opus 4.5,no,1,1,0
+tailwind-color-classes,051633e1,2026-01-16,Opus 4.5,no,5,4,1
+tailwind-color-classes,50865e4b,2026-01-16,Opus 4.5,no,1,1,0
+tailwind-color-classes,f3d9d575,2026-01-17,Opus 4.5,no,2,0,2
+render-error-object,f3d9d575,2026-01-17,Opus 4.5,no,1,1,0
+tailwind-color-classes,e4228dd4,2026-01-17,Opus 4.5,no,4,0,4
+console-direct,edaa58ca,2026-01-17,Opus 4.5,no,1,0,1
+tailwind-color-classes,edaa58ca,2026-01-17,Opus 4.5,no,10,0,10
+tailwind-color-classes,38bc2adb,2026-01-17,Opus 4.5,no,1,0,1
+hex-in-components,38bc2adb,2026-01-17,Opus 4.5,no,1,0,1
+tailwind-color-classes,6311c6b1,2026-01-17,Opus 4.5,no,1,0,1
+tailwind-color-classes,cd799f32,2026-01-17,Opus 4.5,no,6,6,0
+tailwind-color-classes,1de41208,2026-01-17,Opus 4.5,no,1,1,0
+tailwind-color-classes,2b852f7b,2026-01-17,Opus 4.5,no,1,0,1
+tailwind-color-classes,398baddb,2026-01-18,Opus 4.5,no,14,0,14
+tailwind-color-classes,0594d45c,2026-01-18,Opus 4.5,no,10,6,4
+tailwind-color-classes,00405b8b,2026-01-18,Opus 4.5,no,2,0,2
+localstorage-direct,d16d02af,2026-01-18,Opus 4.5,no,10,10,0
+console-direct,c9582e89,2026-01-18,Opus 4.5,no,5,0,5
+tailwind-color-classes,c154639a,2026-01-18,Opus 4.5,no,4,0,4
+console-direct,30affa9d,2026-01-18,Opus 4.5,no,4,1,3
+tailwind-color-classes,30affa9d,2026-01-18,Opus 4.5,no,8,1,7
+hex-in-components,30affa9d,2026-01-18,Opus 4.5,no,1,0,1
+tailwind-color-classes,e1c7d8d6,2026-01-18,Opus 4.5,no,1,0,1
+console-direct,a6c1e513,2026-01-18,Opus 4.5,no,5,0,5
+single-not-maybesingle,a6c1e513,2026-01-18,Opus 4.5,no,1,0,1
+console-direct,72941ad7,2026-01-18,Opus 4.5,no,1,2,0
+tailwind-color-classes,17fc5e4e,2026-01-18,Opus 4.5,no,5,4,1
+console-direct,853c7eac,2026-01-19,Opus 4.5,no,1,0,1
+console-direct,1ebdbb69,2026-01-19,Opus 4.5,no,10,0,10
+tailwind-color-classes,1ebdbb69,2026-01-19,Opus 4.5,no,22,0,22
+hex-in-components,6ac68b65,2026-01-19,Opus 4.5,no,4,0,4
+tailwind-color-classes,7d8e194d,2026-01-19,Opus 4.5,no,30,0,30
+hex-in-components,7d8e194d,2026-01-19,Opus 4.5,no,2,0,2
+tailwind-color-classes,7a6b7f43,2026-01-19,Opus 4.5,no,18,11,7
+tailwind-color-classes,d11217cd,2026-01-19,Opus 4.5,no,2,3,0
+tailwind-color-classes,f4c3ae33,2026-01-19,Opus 4.5,no,1,1,0
+console-direct,0ed3e0e6,2026-01-19,Opus 4.5,no,1,1,0
+hex-in-components,fe372e80,2026-01-19,Opus 4.5,no,1,0,1
+tailwind-color-classes,8a06d3cc,2026-01-19,Opus 4.5,no,1,0,1
+tailwind-color-classes,2ff862ec,2026-01-20,Opus 4.5,no,14,187,0
+hex-in-components,2ff862ec,2026-01-20,Opus 4.5,no,3,0,3
+hex-in-components,b467af2c,2026-01-20,Opus 4.5,no,1,1,0
+hex-in-components,7689d369,2026-01-20,Opus 4.5,no,2,0,2
+hex-in-components,e52ef8b1,2026-01-20,Opus 4.5,no,6,0,6
+hex-in-components,bfb34f90,2026-01-20,Opus 4.5,no,1,6,0
+hex-in-components,ec163ee0,2026-01-20,Opus 4.5,no,5,1,4
+hex-in-components,9510b296,2026-01-20,Opus 4.5,no,10,5,5
+hex-in-components,04decaef,2026-01-20,Opus 4.5,no,10,8,2
+hex-in-components,d25324a6,2026-01-20,Opus 4.5,no,1,10,0
+hex-in-components,92460185,2026-01-20,Opus 4.5,no,2,1,1
+hex-in-components,efc4c33f,2026-01-20,Opus 4.5,no,4,5,0
+hex-in-components,b371a224,2026-01-20,none,no,1,1,0
+hex-in-components,d73c2687,2026-01-20,none,no,2,1,1
+hex-in-components,cb9e602e,2026-01-20,none,no,2,2,0
+hex-in-components,2f576e3f,2026-01-20,Opus 4.5,no,3,3,0
+hex-in-components,f53a99f0,2026-01-20,Opus 4.5,no,1,2,0
+hex-in-components,664f3d47,2026-01-20,Opus 4.5,no,4,2,2
+hex-in-components,fb7d2285,2026-01-20,Opus 4.5,no,4,2,2
+hex-in-components,54dd66d9,2026-01-20,none,no,3,0,3
+hex-in-components,293935c0,2026-01-20,Opus 4.5,no,5,2,3
+console-direct,583a1e76,2026-01-22,Opus 4.5,no,17,0,17
+localstorage-direct,583a1e76,2026-01-22,Opus 4.5,no,2,1,1
+tailwind-color-classes,583a1e76,2026-01-22,Opus 4.5,no,9,22,0
+hex-in-components,583a1e76,2026-01-22,Opus 4.5,no,15,13,2
+single-not-maybesingle,583a1e76,2026-01-22,Opus 4.5,no,3,0,3
+console-direct,a5bda484,2026-01-22,Opus 4.5,no,4,2,2
+tailwind-color-classes,bf15dcfe,2026-01-22,Opus 4.5,no,1,0,1
+tailwind-color-classes,a7860525,2026-01-22,Opus 4.5,no,1,0,1
+hex-in-components,ea4ce768,2026-01-22,Opus 4.5,no,1,0,1
+hex-in-components,39ccb64f,2026-01-22,Opus 4.5,no,1,1,0
+console-direct,46c9584b,2026-01-22,none,no,8,1,7
+localstorage-direct,46c9584b,2026-01-22,none,no,2,0,2
+supabase-in-ui,46c9584b,2026-01-22,none,yes,1,0,1
+tailwind-color-classes,46c9584b,2026-01-22,none,no,1,1,0
+hex-in-components,46c9584b,2026-01-22,none,no,24,10,14
+single-not-maybesingle,46c9584b,2026-01-22,none,no,2,1,1
+tailwind-color-classes,7ecb0e3b,2026-01-22,none,no,1,2,0
+hex-in-components,7ecb0e3b,2026-01-22,none,no,3,0,3
+console-direct,90967d3c,2026-01-22,none,no,1,0,1
+console-direct,d9be9ab1,2026-01-22,Opus 4.5,no,22,7,15
+render-error-object,d9be9ab1,2026-01-22,Opus 4.5,no,1,0,1
+console-direct,2bf7b3b8,2026-01-22,Opus 4.5,no,1,0,1
+console-direct,f976d430,2026-01-22,Opus 4.5,no,6,0,6
+single-not-maybesingle,1154408e,2026-01-22,Opus 4.5,no,1,1,0
+tailwind-color-classes,d3a58f75,2026-01-22,Opus 4.5,no,2,2,0
+es2023-array-methods,bf448b8c,2026-01-23,Opus 4.5,no,5,0,5
+es2023-array-methods,e908d15d,2026-01-23,Opus 4.5,no,1,0,1
+tailwind-color-classes,e908d15d,2026-01-23,Opus 4.5,no,3,0,3
+hex-in-components,e908d15d,2026-01-23,Opus 4.5,no,2,0,2
+tailwind-color-classes,52d2a788,2026-01-23,Opus 4.5,no,7,0,7
+hex-in-components,52d2a788,2026-01-23,Opus 4.5,no,15,0,15
+tailwind-color-classes,562199c0,2026-01-23,Opus 4.5,no,13,0,13
+hex-in-components,562199c0,2026-01-23,Opus 4.5,no,37,0,37
+console-direct,37777002,2026-01-23,Opus 4.5,no,6,0,6
+tailwind-color-classes,37777002,2026-01-23,Opus 4.5,no,2,0,2
+hex-in-components,37777002,2026-01-23,Opus 4.5,no,16,0,16
+console-direct,81d303bb,2026-01-24,Opus 4.5,no,4,0,4
+tailwind-color-classes,81d303bb,2026-01-24,Opus 4.5,no,1,0,1
+hex-in-components,81d303bb,2026-01-24,Opus 4.5,no,1,0,1
+console-direct,f4d77eeb,2026-01-24,Opus 4.5,no,2,0,2
+tailwind-color-classes,7d116dbf,2026-01-24,Opus 4.5,no,1,1,0
+console-direct,cfb95e5e,2026-01-24,Opus 4.5,no,3,0,3
+tailwind-color-classes,cfb95e5e,2026-01-24,Opus 4.5,no,16,3,13
+console-direct,714cde5e,2026-01-24,Opus 4.5,no,2,0,2
+tailwind-color-classes,f534519d,2026-01-24,Opus 4.5,no,2,11,0
+hex-in-components,f534519d,2026-01-24,Opus 4.5,no,3,19,0
+console-direct,12c0a3b9,2026-01-24,Opus 4.5,no,2,0,2
+tailwind-color-classes,2da2253d,2026-01-24,Opus 4.5,no,7,5,2
+hex-in-components,2da2253d,2026-01-24,Opus 4.5,no,1,0,1
+console-direct,565d89f2,2026-01-24,Opus 4.5,no,1,1,0
+console-direct,a046996d,2026-01-24,Opus 4.5,no,9,0,9
+tailwind-color-classes,a046996d,2026-01-24,Opus 4.5,no,3,3,0
+render-error-object,a046996d,2026-01-24,Opus 4.5,no,1,0,1
+single-not-maybesingle,a046996d,2026-01-24,Opus 4.5,no,3,0,3
+round-without-numeric,a046996d,2026-01-24,Opus 4.5,no,7,0,7
+tailwind-color-classes,88219da2,2026-01-24,Opus 4.5,no,14,14,0
+hex-in-components,88219da2,2026-01-24,Opus 4.5,no,3,3,0
+tailwind-color-classes,2252d44d,2026-01-24,Opus 4.5,no,1,1,0
+hex-in-components,2252d44d,2026-01-24,Opus 4.5,no,7,7,0
+tailwind-color-classes,5d4e34ec,2026-01-24,Opus 4.5,no,2,2,0
+hex-in-components,5d4e34ec,2026-01-24,Opus 4.5,no,2,0,2
+console-direct,41acefe4,2026-01-24,Opus 4.5,no,3,3,0
+console-direct,81694615,2026-01-24,Opus 4.5,no,3,5,0
+console-direct,f80bb359,2026-01-25,Opus 4.5,no,2,0,2
+tailwind-color-classes,0c6d6d52,2026-01-25,Opus 4.5,no,5,5,0
+hex-in-components,0c6d6d52,2026-01-25,Opus 4.5,no,2,2,0
+render-error-object,0c6d6d52,2026-01-25,Opus 4.5,yes,1,1,0
+localstorage-direct,a79ed651,2026-01-25,Opus 4.5,yes,1,1,0
+console-direct,89eb5817,2026-01-25,Opus 4.5,yes,2,0,2
+console-direct,d31a6852,2026-01-25,Opus 4.5,yes,1,1,0
+console-direct,975bf48a,2026-01-25,Opus 4.5,yes,3,0,3
+console-direct,739c182a,2026-01-25,Opus 4.5,yes,1,0,1
+tailwind-color-classes,bcebae54,2026-01-25,Opus 4.5,no,1,1,0
+tailwind-color-classes,c430cff0,2026-01-25,Opus 4.5,no,3,2,1
+hex-in-components,c430cff0,2026-01-25,Opus 4.5,no,10,0,10
+round-without-numeric,c430cff0,2026-01-25,Opus 4.5,no,4,0,4
+tailwind-color-classes,f35c8eab,2026-01-25,Opus 4.5,no,6,0,6
+hex-in-components,f35c8eab,2026-01-25,Opus 4.5,no,10,0,10
+round-without-numeric,f35c8eab,2026-01-25,Opus 4.5,no,11,0,11
+localstorage-direct,67a50108,2026-01-26,Opus 4.5,yes,2,0,2
+round-without-numeric,67a50108,2026-01-26,Opus 4.5,no,2,0,2
+console-direct,1260edd2,2026-01-26,none,yes,1,0,1
+localstorage-direct,1260edd2,2026-01-26,none,yes,1,0,1
+console-direct,c366e34f,2026-01-26,none,yes,5,0,5
+console-direct,d4f723b3,2026-01-26,none,yes,3,0,3
+localstorage-direct,d4f723b3,2026-01-26,none,yes,1,0,1
+console-direct,ee572bb6,2026-01-26,none,yes,3,0,3
+console-direct,8b43fb08,2026-01-26,none,yes,4,0,4
+localstorage-direct,2b8a4838,2026-01-26,none,yes,1,1,0
+hex-in-components,2b8a4838,2026-01-26,none,no,1,0,1
+localstorage-direct,b75d2fac,2026-01-26,Opus 4.5,yes,1,3,0
+tailwind-color-classes,22d13018,2026-01-26,Opus 4.5,no,2,2,0
+tailwind-color-classes,4dac2b4f,2026-01-26,Opus 4.5,no,4,6,0
+tailwind-color-classes,aa56ae51,2026-01-27,Opus 4.5,no,3,20,0
+hex-in-components,aa56ae51,2026-01-27,Opus 4.5,no,2,0,2
+tailwind-color-classes,011ea6f8,2026-01-27,Opus 4.5,no,1,1,0
+hex-in-components,011ea6f8,2026-01-27,Opus 4.5,no,1,0,1
+hex-in-components,2e2eb767,2026-01-27,Opus 4.5,no,1,1,0
+hex-in-components,62bb28b2,2026-01-27,Opus 4.5,no,4,5,0
+hex-in-components,a238eb56,2026-01-27,Opus 4.5,no,1,0,1
+console-direct,5ddc3db9,2026-01-27,Opus 4.5,yes,1,0,1
+hex-in-components,5ddc3db9,2026-01-27,Opus 4.5,no,6,6,0
+hex-in-components,4d98c638,2026-01-28,Opus 4.5,no,1,0,1
+hex-in-components,f96a8ada,2026-01-28,Opus 4.5,no,2,0,2
+localstorage-direct,06687deb,2026-01-28,Opus 4.5,yes,2,0,2
+hex-in-components,3c0b5911,2026-01-28,Opus 4.5,no,1,0,1
+hex-in-components,9f33bc65,2026-01-28,Opus 4.5,no,8,0,8
+hex-in-components,6c43a98f,2026-01-28,Opus 4.5,no,1,1,0
+single-not-maybesingle,1af076f8,2026-01-29,Opus 4.5,no,2,0,2
+tailwind-color-classes,c4b97788,2026-01-29,Opus 4.5,no,4,4,0
+tailwind-color-classes,066f78a8,2026-01-29,Opus 4.5,no,7,7,0
+hex-in-components,066f78a8,2026-01-29,Opus 4.5,no,1,1,0
+tailwind-color-classes,f88cdae5,2026-01-29,Opus 4.5,no,1,1,0
+hex-in-components,f88cdae5,2026-01-29,Opus 4.5,no,1,0,1
+hex-in-components,946b8e4c,2026-01-30,Opus 4.5,no,54,0,54
+hex-in-components,8eaf3d8e,2026-01-30,Opus 4.5,no,2,2,0
+tailwind-color-classes,0597e2d1,2026-01-31,Opus 4.5,no,6,15,0
+hex-in-components,0597e2d1,2026-01-31,Opus 4.5,no,18,33,0
+round-without-numeric,0597e2d1,2026-01-31,Opus 4.5,no,1,0,1
+tailwind-color-classes,1b8d655c,2026-01-31,Opus 4.5,no,3,1,2
+hex-in-components,1b8d655c,2026-01-31,Opus 4.5,no,2,0,2
+round-without-numeric,1b8d655c,2026-01-31,Opus 4.5,no,2,0,2
+tailwind-color-classes,05fa5afc,2026-01-31,Opus 4.5,no,1,3,0
+hex-in-components,05fa5afc,2026-01-31,Opus 4.5,no,2,14,0
+tailwind-color-classes,9216e741,2026-01-31,Opus 4.5,no,2,0,2
+hex-in-components,9216e741,2026-01-31,Opus 4.5,no,6,0,6
+tailwind-color-classes,0a136b60,2026-01-31,Opus 4.5,no,4,3,1
+hex-in-components,0a136b60,2026-01-31,Opus 4.5,no,13,11,2
+round-without-numeric,0a136b60,2026-01-31,Opus 4.5,no,2,0,2
+tailwind-color-classes,1a88af1c,2026-01-31,Opus 4.5,no,2,17,0
+hex-in-components,1a88af1c,2026-01-31,Opus 4.5,no,8,40,0
+tailwind-color-classes,584e6c53,2026-01-31,Opus 4.5,no,2,6,0
+hex-in-components,584e6c53,2026-01-31,Opus 4.5,no,12,8,4
+round-without-numeric,584e6c53,2026-01-31,Opus 4.5,no,7,0,7
+tailwind-color-classes,0eec4138,2026-01-31,Opus 4.5,no,10,0,10
+hex-in-components,0eec4138,2026-01-31,Opus 4.5,no,1,0,1
+single-not-maybesingle,0eec4138,2026-01-31,Opus 4.5,no,5,0,5
+hex-in-components,b21bc0cd,2026-02-01,Opus 4.5,no,16,12,4
+hex-in-components,b24f596b,2026-02-01,Opus 4.5,no,1,0,1
+round-without-numeric,b24f596b,2026-02-01,Opus 4.5,no,5,0,5
+hex-in-components,7d9a8be7,2026-02-01,Opus 4.5,no,1,0,1
+hex-in-components,6d84874a,2026-02-08,Opus 4.6,yes,5,78,0
+round-without-numeric,3791e734,2026-02-08,Opus 4.6,yes,2,0,2
+round-without-numeric,868a6f9f,2026-02-10,Opus 4.6,yes,7,0,7
+hex-in-components,7efda3f0,2026-02-13,Opus 4.6,yes,3,0,3
+hex-in-components,0474a87f,2026-02-13,Opus 4.6,yes,3,3,0
+hex-in-components,5e810ecc,2026-02-13,Opus 4.6,yes,3,3,0
+tailwind-color-classes,c474f565,2026-02-14,Opus 4.6,yes,2,1,1
+tailwind-color-classes,43affb9c,2026-02-14,Opus 4.6,yes,1,52,0
+hex-in-components,43affb9c,2026-02-14,Opus 4.6,yes,4,5,0
+hex-in-components,e96d9c33,2026-02-14,Opus 4.6,yes,3,0,3
+hex-in-components,0aa0dea5,2026-02-14,Opus 4.6,yes,3,0,3
+hex-in-components,2cb26006,2026-02-14,Opus 4.6,yes,3,0,3
+hex-in-components,0fbf079b,2026-02-14,Opus 4.6,yes,1,0,1
+hex-in-components,74dc81d0,2026-02-14,Opus 4.6,yes,1,1,0
+hex-in-components,cbf35430,2026-02-15,Opus 4.6,yes,2,0,2
+hex-in-components,6c6611c4,2026-02-15,Opus 4.6,yes,3,3,0
+hex-in-components,2fe89cd8,2026-02-15,Opus 4.6,yes,3,3,0
+hex-in-components,603296e6,2026-02-15,Opus 4.6,yes,1,0,1
+hex-in-components,2e8e766e,2026-02-16,Opus 4.6,yes,3,0,3
+hex-in-components,ff0701cb,2026-02-16,Opus 4.6,yes,1,0,1
+hex-in-components,69c34526,2026-02-17,Opus 4.6,yes,3,2,1
+hex-in-components,95d9ca45,2026-02-17,Opus 4.6,yes,1,0,1
+round-without-numeric,0e6a344c,2026-02-17,Opus 4.6,yes,5,0,5
+round-without-numeric,951de671,2026-02-17,Opus 4.6,yes,1,0,1
+tailwind-color-classes,e7bca910,2026-02-17,Opus 4.6,yes,1,1,0
+hex-in-components,1a2fcc9e,2026-02-17,Opus 4.6,yes,53,7,46
+hex-in-components,22b803bf,2026-02-17,Opus 4.6,yes,12,15,0
+hex-in-components,293a5a75,2026-02-17,Opus 4.6,yes,45,25,20
+hex-in-components,853b95ad,2026-02-17,Opus 4.6,yes,4,7,0
+hex-in-components,427243fd,2026-02-17,Opus 4.6,yes,23,17,6
+hex-in-components,b44db5de,2026-02-17,Opus 4.6,yes,5,5,0
+hex-in-components,607a8c69,2026-02-17,Opus 4.6,yes,7,5,2
+hex-in-components,7c43968b,2026-02-17,Opus 4.6,yes,10,9,1
+hex-in-components,9defc514,2026-02-18,Opus 4.6,yes,3,3,0
+hex-in-components,fdf0aef9,2026-02-18,Opus 4.6,yes,19,8,11
+hex-in-components,4a087a65,2026-02-18,Opus 4.6,yes,6,10,0
+hex-in-components,56723b5c,2026-02-18,Opus 4.6,yes,1,1,0
+hex-in-components,79f5d3fd,2026-02-19,Opus 4.6,yes,159,0,159
+hex-in-components,e68be2f1,2026-02-19,Opus 4.6,yes,4,3,1
+hex-in-components,c2758bf4,2026-02-19,Opus 4.6,yes,40,4,36
+hex-in-components,8925149a,2026-02-19,Opus 4.6,yes,1,2,0
+hex-in-components,1e6a5471,2026-02-19,Opus 4.6,yes,11,128,0
+hex-in-components,280943e8,2026-02-20,Opus 4.6,yes,3,3,0
+round-without-numeric,779f753c,2026-02-21,Opus 4.6,yes,1,0,1
+hex-in-components,211b4d34,2026-02-21,Opus 4.6,yes,4,10,0
+hex-in-components,dc6a6b8c,2026-02-21,Opus 4.6,yes,2,0,2
+render-error-object,dc6a6b8c,2026-02-21,Opus 4.6,yes,1,0,1
+tailwind-color-classes,799f3b2c,2026-02-21,Opus 4.6,yes,2,0,2
+render-error-object,799f3b2c,2026-02-21,Opus 4.6,yes,1,1,0
+hex-in-components,92b659c9,2026-02-21,Opus 4.6,yes,1,1,0
+hex-in-components,5d5b95ed,2026-02-21,Opus 4.6,yes,1,0,1
+round-without-numeric,42513d05,2026-02-22,Opus 4.6,yes,2,0,2
+hex-in-components,285c937d,2026-02-22,Opus 4.6,yes,4,4,0
+hex-in-components,c7def070,2026-02-25,Opus 4.6,yes,1,0,1
+hex-in-components,2e34b8c5,2026-02-26,Opus 4.6,yes,1,0,1
+hex-in-components,95977714,2026-03-03,Opus 4.6,yes,2,0,2
+hex-in-components,ee65568e,2026-03-08,Opus 4.6,yes,10,0,10
+hex-in-components,f3fa3f1b,2026-03-08,Opus 4.6,yes,1,0,1
+round-without-numeric,eed3775f,2026-03-08,Opus 4.6,yes,4,0,4
+supabase-in-ui,15b5b412,2026-03-10,Opus 4.6,yes,1,0,1
+hex-in-components,15b5b412,2026-03-10,Opus 4.6,no,1,1,0
+hex-in-components,aa3b05cb,2026-03-11,Opus 4.6,no,6,0,6
+hex-in-components,e392a9ee,2026-03-16,Opus 4.6 (1M),no,1,0,1
+hex-in-components,c8758387,2026-03-16,Opus 4.6 (1M),no,2,0,2
+hex-in-components,e4a90c70,2026-03-16,Opus 4.6 (1M),no,1,0,1
+hex-in-components,b4048145,2026-03-16,Opus 4.6 (1M),no,1,0,1
+hex-in-components,7cf15598,2026-03-16,Opus 4.6 (1M),no,1,0,1
+hex-in-components,dcee00de,2026-03-16,Opus 4.6 (1M),no,1,1,0
+hex-in-components,b168f59e,2026-03-17,Opus 4.6 (1M),no,3,1,2
+hex-in-components,9348d258,2026-03-18,Opus 4.6 (1M),no,11,3,8
+hex-in-components,9c50a42e,2026-03-19,Opus 4.6 (1M),no,3,11,0
+hex-in-components,b25397e2,2026-03-21,Opus 4.6 (1M),no,7,7,0
+hex-in-components,cf66d2e1,2026-03-21,Opus 4.6 (1M),no,1,1,0
+hex-in-components,1e8c9094,2026-03-21,Opus 4.6 (1M),no,3,3,0
+hex-in-components,1cee27c0,2026-03-21,Opus 4.6 (1M),no,2,2,0
+hex-in-components,bcbc66c0,2026-03-21,Opus 4.6 (1M),no,1,1,0
+hex-in-components,f40fc44e,2026-03-21,Opus 4.6 (1M),no,1,1,0
+hex-in-components,f98ffc1c,2026-03-22,Opus 4.6 (1M),no,3,3,0
+supabase-in-ui,cd9e16fb,2026-03-22,Opus 4.6 (1M),yes,1,1,0
+single-not-maybesingle,51c8427d,2026-03-23,Opus 4.6 (1M),yes,8,9,0
+hex-in-components,33658c8f,2026-03-24,Opus 4.6 (1M),no,3,0,3
+hex-in-components,abc2f9a0,2026-03-27,Opus 4.6 (1M),no,1,0,1
+hex-in-components,51b54302,2026-03-31,Opus 4.6 (1M),no,3,1,2
+hex-in-components,7c7d5d88,2026-04-07,Opus 4.6 (1M),no,1,0,1
+round-without-numeric,e7cb6c89,2026-04-09,Opus 4.6 (1M),yes,1,0,1
+round-without-numeric,6819781a,2026-04-10,Opus 4.6 (1M),yes,8,0,8
+round-without-numeric,571f444d,2026-04-13,none,yes,3,0,3
+hex-in-components,8fe9fe8e,2026-04-14,Opus 4.6 (1M),no,2,0,2
+hex-in-components,611a0ca0,2026-04-15,none,no,1,0,1
+render-error-object,611a0ca0,2026-04-15,none,yes,1,0,1
+round-without-numeric,7a0bb220,2026-04-15,Opus 4.6 (1M),yes,3,0,3
+hex-in-components,50ec2d30,2026-04-16,none,no,2,0,2
+hex-in-components,9735e34c,2026-04-16,none,no,1,0,1
+render-error-object,653f42ac,2026-04-16,none,yes,1,0,1
+hex-in-components,4444509f,2026-04-16,none,no,2,0,2
+hex-in-components,3f85456b,2026-04-16,none,no,3,1,2
+hex-in-components,c9640656,2026-04-16,none,no,1,1,0
+round-without-numeric,031965ad,2026-04-16,Opus 4.7 (1M),yes,6,0,6
+hex-in-components,32cf9fe0,2026-04-17,Opus 4.7 (1M),no,1,2,0
+hex-in-components,f201e7cb,2026-04-18,Opus 4.7 (1M),no,3,0,3
+hex-in-components,ed406ba1,2026-04-18,Opus 4.7 (1M),no,2,9,0

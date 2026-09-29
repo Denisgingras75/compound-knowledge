@@ -1,0 +1,103 @@
+{
+  "project_file": "CLAUDE.md",
+  "note": "Rules from the WGH CLAUDE.md that can be checked with a regex on added lines. A commit is 'exposed' to a rule when the anchor regex matches the CLAUDE.md in that commit's parent, i.e. the file the session saw when it started. 'compliant' matches the right way to do the same thing, so zero violations can be told apart from zero opportunities.",
+  "rules": [
+    {
+      "id": "es2023-array-methods",
+      "rule": "No toSorted() or other ES2023+ array methods",
+      "anchor": "toSorted",
+      "include": "^src/.*\\.(js|jsx|ts|tsx)$",
+      "exclude": "\\.test\\.|/__tests__/|^src/test/",
+      "pattern": "\\.(toSorted|toReversed|toSpliced|findLast|findLastIndex)\\s*\\(",
+      "compliant": "\\.slice\\(\\)\\s*\\.sort\\(|\\[\\.\\.\\.[\\w.]+\\]\\s*\\.sort\\("
+    },
+    {
+      "id": "array-at",
+      "rule": "No Array.at()",
+      "anchor": "Array\\.at\\(\\)",
+      "include": "^src/.*\\.(js|jsx|ts|tsx)$",
+      "exclude": "\\.test\\.|/__tests__/|^src/test/",
+      "pattern": "\\.at\\(\\s*-?[\\w.]+\\s*\\)",
+      "compliant": "\\[\\s*[\\w.]+\\.length\\s*-\\s*1\\s*\\]"
+    },
+    {
+      "id": "console-direct",
+      "rule": "Use logger, never console.* directly (from Jan 25; the Jan 24 version still allowed console in catch blocks)",
+      "anchor": "console\\.\\*",
+      "include": "^src/.*\\.(js|jsx|ts|tsx)$",
+      "exclude": "\\.test\\.|/__tests__/|^src/test/|^src/utils/logger\\.js$",
+      "pattern": "\\bconsole\\.(log|error|warn|info|debug)\\s*\\(",
+      "compliant": "\\blogger\\.(error|warn|info|debug)\\s*\\("
+    },
+    {
+      "id": "localstorage-direct",
+      "rule": "All localStorage access goes through src/lib/storage.js",
+      "anchor": "src/lib/storage\\.js",
+      "include": "^src/.*\\.(js|jsx|ts|tsx)$",
+      "exclude": "\\.test\\.|/__tests__/|^src/test/|^src/lib/storage\\.js$|^src/lib/supabase\\.js$",
+      "pattern": "\\blocalStorage\\s*(\\.(getItem|setItem|removeItem|clear|key)\\b|\\[)",
+      "compliant": "\\b(getStorageItem|setStorageItem|removeStorageItem)\\s*\\("
+    },
+    {
+      "id": "supabase-in-ui",
+      "rule": "No direct Supabase calls from components, pages or hooks",
+      "anchor": "No direct Supabase calls",
+      "include": "^src/(components|pages|hooks)/.*\\.(js|jsx|ts|tsx)$",
+      "exclude": "\\.test\\.|/__tests__/",
+      "pattern": "\\bsupabase\\s*\\.\\s*(from|rpc|auth|storage|channel|removeChannel|functions)\\b"
+    },
+    {
+      "id": "tailwind-color-classes",
+      "rule": "No Tailwind color classes; colors come from CSS variables",
+      "anchor": "Tailwind color classes|text-gray-900|Tailwind is for layout",
+      "include": "^src/.*\\.(js|jsx|ts|tsx)$",
+      "exclude": "\\.test\\.|/__tests__/|^src/test/",
+      "pattern": "(?<![\\w-])(?:text|bg|border|ring|divide|placeholder|from|via|to|fill|stroke|outline|decoration|accent|caret|shadow)-(?:white|black|(?:slate|gray|zinc|neutral|stone|red|orange|amber|yellow|lime|green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose)-(?:50|[1-9]00|950))(?![\\w-])",
+      "compliant": "var\\(--color-"
+    },
+    {
+      "id": "hex-in-components",
+      "rule": "Never hardcode hex colors in components (added Feb 7, reversed Mar 8)",
+      "anchor": "Never hardcode hex colors",
+      "include": "^src/(components|pages)/.*\\.(js|jsx|ts|tsx)$",
+      "exclude": "\\.test\\.|/__tests__/",
+      "pattern": "(?<![\\w&])#(?:[0-9a-fA-F]{8}|[0-9a-fA-F]{6}|[0-9a-fA-F]{3})(?![\\w-])",
+      "compliant": "var\\(--color-"
+    },
+    {
+      "id": "render-error-object",
+      "rule": "Never render error objects directly",
+      "anchor": "error\\?\\.message",
+      "include": "^src/.*\\.(jsx|tsx)$",
+      "exclude": "\\.test\\.|/__tests__/",
+      "pattern": ">\\s*\\{\\s*(error|err)\\s*\\}|\\{\\s*(error|err)\\s*\\}\\s*<|^\\s*\\{\\s*(error|err)\\s*\\}\\s*$",
+      "compliant": "error\\?\\.message"
+    },
+    {
+      "id": "single-not-maybesingle",
+      "rule": "Use .maybeSingle() for lookups that might return zero rows",
+      "anchor": "maybeSingle",
+      "include": "^src/.*\\.(js|jsx|ts|tsx)$",
+      "exclude": "\\.test\\.|/__tests__/|^src/test/",
+      "pattern": "\\.single\\(\\)",
+      "soft": "`.single()` is correct when the row must exist, so this counts candidates, not confirmed violations.",
+      "compliant": "\\.maybeSingle\\(\\)"
+    },
+    {
+      "id": "round-without-numeric",
+      "rule": "ROUND() needs a ::NUMERIC cast on float expressions",
+      "anchor": "ROUND\\(\\)",
+      "include": "^supabase/migrations/.*\\.sql$",
+      "exclude": "schema[_-]sync|/denis-sync/|/_archive/",
+      "pattern": "(?i)\\bROUND\\s*\\((?!.*::\\s*numeric)",
+      "soft": "ROUND on a NUMERIC column needs no cast, and multi-line expressions can hide the cast, so this counts candidates.",
+      "compliant": "(?i)\\bROUND\\s*\\(.*::\\s*numeric"
+    }
+  ],
+  "skip_commits": {
+    "42e3275": "Squash-import of a 67-commit branch written in a separate repository, so which CLAUDE.md its sessions saw is unknown",
+    "3095c27": "Consolidates 86 existing SQL files into schema.sql (copies code already in the repo)",
+    "d3316fc": "Moves existing SQL files into new folders (copies code already in the repo)",
+    "7eeaf44": "Full schema sync dump for a database switch (copies code already in the repo)"
+  }
+}

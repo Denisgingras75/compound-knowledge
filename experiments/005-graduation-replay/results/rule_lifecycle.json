@@ -1,0 +1,286 @@
+[
+  {
+    "id": "es2023-array-methods",
+    "human_rule_date": "2026-01-24",
+    "sessions_before_rule": 2,
+    "commits_before_rule": 2,
+    "commits_after_rule": 0,
+    "last_violation": "2026-01-23",
+    "pipeline": {
+      "per-run": {
+        "reached_2": "2026-01-23",
+        "locked": null,
+        "dropped": [
+          "2026-02-23"
+        ],
+        "alive_at_end": 0
+      },
+      "window": {
+        "reached_2": "2026-01-23",
+        "locked": null,
+        "dropped": [
+          "2026-03-25"
+        ],
+        "alive_at_end": 0
+      },
+      "none": {
+        "reached_2": "2026-01-23",
+        "locked": null,
+        "dropped": [],
+        "alive_at_end": 2
+      }
+    }
+  },
+  {
+    "id": "array-at",
+    "human_rule_date": "2026-01-24",
+    "sessions_before_rule": 0,
+    "commits_before_rule": 0,
+    "commits_after_rule": 0,
+    "last_violation": null,
+    "pipeline": {
+      "per-run": {
+        "reached_2": null,
+        "locked": null,
+        "dropped": [],
+        "alive_at_end": null
+      },
+      "window": {
+        "reached_2": null,
+        "locked": null,
+        "dropped": [],
+        "alive_at_end": null
+      },
+      "none": {
+        "reached_2": null,
+        "locked": null,
+        "dropped": [],
+        "alive_at_end": null
+      }
+    }
+  },
+  {
+    "id": "console-direct",
+    "human_rule_date": "2026-01-25",
+    "sessions_before_rule": 13,
+    "commits_before_rule": 35,
+    "commits_after_rule": 9,
+    "last_violation": "2026-01-27",
+    "pipeline": {
+      "per-run": {
+        "reached_2": "2026-01-11",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "window": {
+        "reached_2": "2026-01-11",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "none": {
+        "reached_2": "2026-01-11",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      }
+    }
+  },
+  {
+    "id": "localstorage-direct",
+    "human_rule_date": "2026-01-24",
+    "sessions_before_rule": 7,
+    "commits_before_rule": 9,
+    "commits_after_rule": 4,
+    "last_violation": "2026-01-28",
+    "pipeline": {
+      "per-run": {
+        "reached_2": "2026-01-14",
+        "locked": "2026-02-12",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "window": {
+        "reached_2": "2026-01-14",
+        "locked": "2026-02-12",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "none": {
+        "reached_2": "2026-01-14",
+        "locked": "2026-02-12",
+        "dropped": [],
+        "alive_at_end": 3
+      }
+    }
+  },
+  {
+    "id": "supabase-in-ui",
+    "human_rule_date": "2026-01-20",
+    "sessions_before_rule": 5,
+    "commits_before_rule": 6,
+    "commits_after_rule": 2,
+    "last_violation": "2026-03-10",
+    "pipeline": {
+      "per-run": {
+        "reached_2": "2026-01-12",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "window": {
+        "reached_2": "2026-01-12",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "none": {
+        "reached_2": "2026-01-12",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      }
+    }
+  },
+  {
+    "id": "tailwind-color-classes",
+    "human_rule_date": "2026-02-01",
+    "sessions_before_rule": 23,
+    "commits_before_rule": 67,
+    "commits_after_rule": 2,
+    "last_violation": "2026-02-21",
+    "pipeline": {
+      "per-run": {
+        "reached_2": "2026-01-07",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "window": {
+        "reached_2": "2026-01-07",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "none": {
+        "reached_2": "2026-01-07",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      }
+    }
+  },
+  {
+    "id": "hex-in-components",
+    "human_rule_date": "2026-02-07",
+    "sessions_before_rule": 39,
+    "commits_before_rule": 75,
+    "commits_after_rule": 27,
+    "last_violation": "2026-04-18",
+    "pipeline": {
+      "per-run": {
+        "reached_2": "2026-01-12",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "window": {
+        "reached_2": "2026-01-12",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "none": {
+        "reached_2": "2026-01-12",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      }
+    }
+  },
+  {
+    "id": "render-error-object",
+    "human_rule_date": "2026-01-24",
+    "sessions_before_rule": 5,
+    "commits_before_rule": 6,
+    "commits_after_rule": 3,
+    "last_violation": "2026-04-16",
+    "pipeline": {
+      "per-run": {
+        "reached_2": "2026-01-14",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "window": {
+        "reached_2": "2026-01-14",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "none": {
+        "reached_2": "2026-01-14",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      }
+    }
+  },
+  {
+    "id": "single-not-maybesingle",
+    "human_rule_date": "2026-02-01",
+    "sessions_before_rule": 11,
+    "commits_before_rule": 11,
+    "commits_after_rule": 0,
+    "last_violation": "2026-01-31",
+    "pipeline": {
+      "per-run": {
+        "reached_2": "2026-01-12",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "window": {
+        "reached_2": "2026-01-12",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "none": {
+        "reached_2": "2026-01-12",
+        "locked": "2026-02-07",
+        "dropped": [],
+        "alive_at_end": 3
+      }
+    }
+  },
+  {
+    "id": "round-without-numeric",
+    "human_rule_date": "2026-02-01",
+    "sessions_before_rule": 7,
+    "commits_before_rule": 9,
+    "commits_after_rule": 12,
+    "last_violation": "2026-04-16",
+    "pipeline": {
+      "per-run": {
+        "reached_2": "2026-01-26",
+        "locked": "2026-02-24",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "window": {
+        "reached_2": "2026-01-26",
+        "locked": "2026-02-24",
+        "dropped": [],
+        "alive_at_end": 3
+      },
+      "none": {
+        "reached_2": "2026-01-26",
+        "locked": "2026-02-24",
+        "dropped": [],
+        "alive_at_end": 3
+      }
+    }
+  }
+]
