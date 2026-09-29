@@ -1,0 +1,16 @@
+{
+  "name": "compound-knowledge",
+  "owner": {
+    "name": "Denis Gingras"
+  },
+  "metadata": {
+    "description": "Denis's Claude Code plugins, built from the compound-knowledge experiments."
+  },
+  "plugins": [
+    {
+      "name": "constitution",
+      "source": "./constitution",
+      "description": "One global rules file for every Claude Code session, curated from your sessions and approved by you."
+    }
+  ]
+}

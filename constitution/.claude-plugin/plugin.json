@@ -1,0 +1,6 @@
+{
+  "name": "constitution",
+  "version": "0.1.0",
+  "description": "One global rules file for every Claude Code session. A curator reads each finished session and proposes rules; you approve them.",
+  "author": {"name": "Denis Gingras"}
+}

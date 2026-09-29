@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {"hooks": [{"type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/load_rules.py\""}]}
+    ],
+    "SessionEnd": [
+      {"hooks": [{"type": "command", "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/on_session_end.sh\""}]}
+    ]
+  }
+}
